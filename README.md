@@ -50,7 +50,7 @@ Open `.env` and set these values:
 
 ```env
 # Use latest for the current stable release, or pin an exact version such as
-# 1.0.0 when reproducible upgrades matter.
+# 1.1.0 when reproducible upgrades matter.
 CONATUS_VERSION=latest
 CONATUS_PORT=4399
 
