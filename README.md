@@ -1,8 +1,9 @@
-<p align="center">
-  <img src="./public/conatus-logo.png" alt="Conatus laurel logo" width="150">
-</p>
-
-<h1 align="center">Conatus</h1>
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./public/conatus-logo-dark.svg">
+    <img src="./public/conatus-logo.svg" alt="Conatus" width="320">
+  </picture>
+</h1>
 
 <p align="center"><em>Every goal starts with a next step.</em></p>
 
