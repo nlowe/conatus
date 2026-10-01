@@ -23,6 +23,7 @@ env:
   AUTH_SECRET: ci-placeholder-secret
   S3_ENDPOINT: 127.0.0.1
   S3_PORT: "9000"
+  S3_INSECURE: "1"
   S3_ACCESS_KEY: ci-placeholder
   S3_SECRET_KEY: ci-placeholder
   S3_BUCKET: ci-placeholder
