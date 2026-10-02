@@ -9,7 +9,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN DATABASE_URL=postgres://build:build@127.0.0.1:5432/build \
-    S3_ENDPOINT=127.0.0.1 S3_PORT=9000 S3_INSECURE=1 \
+    S3_ENDPOINT=127.0.0.1 S3_PORT=9000 \
     S3_ACCESS_KEY=build-placeholder S3_SECRET_KEY=build-placeholder \
     S3_BUCKET=build-placeholder SMTP_HOST=127.0.0.1 SMTP_PORT=1025 \
     SMTP_FROM=build@localhost npm run build
